@@ -107,3 +107,20 @@ alert('You didn\'t get the correct answer, it was ' + randomNum);
 alert('Nice job!');
 correctGuesses++;
 }
+//MULTIPLE CORRECT ANSWER QUESTIONS
+var sports =['pool','basketball','vollyball'];
+var guesses;
+guessCounter =6;
+do{
+	guess=prompt('what other sports do you think I\'ve played in besides soccer?');
+	guessCounter--;
+}while(!sports.includes(guesses)&&guessCounter>0);
+if (sports.includes(guesses)){
+	correct++;
+	alert('that\'s right, I have playe pool,basketball and vollyball!');
+
+
+else{
+	alert(sorry!);
+}
+alert('You answered ' + correct + ' questions correctly. Congratulations!');
