@@ -119,8 +119,7 @@ if (sports.includes(guesses)){
 	correct++;
 	alert('that\'s right, I have playe pool,basketball and vollyball!');
 
-
-else{
-	alert(sorry!);
+}else{
+	alert('Sorry!');
 }
 alert('You answered ' + correct + ' questions correctly. Congratulations!');
