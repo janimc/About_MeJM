@@ -1,4 +1,27 @@
-*{
-    background-color: aquamarine
-
+body {
+    background-color: rgb(156, 206, 226);
+    }
+p.one {
+    border: 2px solid powderblue;
+    margin: 60px
 }
+div {
+    border: 4px solid #665544;
+    text-align: center;
+    color: blue;
+}
+p.one {border-style: solid;}
+img.align-center {
+    display: block;
+    margin: 0px auto;}
+  img.medium {
+    width: 250px;
+    height: 350px;}
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+    <img src="img/Injera.jpg" alt= "Injera"/>
+
+    
